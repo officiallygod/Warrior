@@ -1,0 +1,126 @@
+name: warrior
+description: nCov2019
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  intl: ^0.16.1
+  http: ^0.12.2
+  sqflite: ^1.3.1
+  flutter_svg: ^0.18.0
+  url_launcher: ^5.5.0
+  path_provider: ^1.6.11
+  flutter_spinkit: ^4.1.2+1
+  bubble_tab_indicator: ^0.1.4
+  cached_network_image: ^2.2.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/raleway/Raleway-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/raleway/Raleway-Light.ttf
+          weight: 300
+        - asset: assets/fonts/raleway/Raleway-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/raleway/Raleway-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/raleway/Raleway-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/raleway/Raleway-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/raleway/Raleway-ExtraBold.ttf
+          weight: 800
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-ExtraBold.ttf
+          weight: 800
+
+    - family: NunitoSans
+      fonts:
+        - asset: assets/fonts/nunitosans/NunitoSans-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/nunitosans/NunitoSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/nunitosans/NunitoSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/nunitosans/NunitoSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/nunitosans/NunitoSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/nunitosans/NunitoSans-ExtraBold.ttf
+          weight: 800
+
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montserrat/Montserrat-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/montserrat/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/fonts/montserrat/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/montserrat/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/montserrat/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/montserrat/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/montserrat/Montserrat-ExtraBold.ttf
+          weight: 800
+
+    - family: MavenPro
+      fonts:
+        - asset: assets/fonts/mavenpro/MavenPro-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/mavenpro/MavenPro-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/mavenpro/MavenPro-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/mavenpro/MavenPro-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/mavenpro/MavenPro-ExtraBold.ttf
+          weight: 800
+
+    - family: GreatVibes
+      fonts:
+        - asset: assets/fonts/greatvibes/GreatVibes-Regular.ttf
+          weight: 400
+
+    - family: Caveat
+      fonts:
+        - asset: assets/fonts/caveat/Caveat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/caveat/Caveat-Bold.ttf
+          weight: 700
